@@ -429,7 +429,6 @@
       var url = decodeURI(visitors.getAttribute('id'));
       var title = visitors.dataset.flagTitle;
 
-      
       Counter('get', `/classes/Counter?where=${encodeURIComponent(JSON.stringify({ url }))}&limit=1`)
         .then(response => response.json())
         .then(({ results }) => {
@@ -465,7 +464,6 @@
         return decodeURI(element.getAttribute('id'));
       });
 
-      
       Counter('get', `?where=${encodeURIComponent(JSON.stringify({ url: { '$in': entries } }))}`)
 
         .then(response => response.json())
