@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
+<!DOCTYPE html><html lang="zh-CN"><head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
@@ -15,7 +13,7 @@
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="/lib/pace/pace-theme-fill-left.min.css">
-  <script src="/lib/pace/pace.min.js"></script>
+  
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -112,11 +110,11 @@
 <link rel="alternate" href="/atom.xml" title="Monica" type="application/atom+xml">
 </head>
 
-<body itemscope itemtype="http://schema.org/WebPage">
+<body itemscope="" itemtype="http://schema.org/WebPage">
   <div class="container use-motion">
     <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+    <header class="header" itemscope="" itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
@@ -188,9 +186,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocorrect="off" autocapitalize="off"
-           placeholder="搜索..." spellcheck="false"
-           type="search" class="search-input">
+    <input autocomplete="off" autocorrect="off" autocapitalize="off" placeholder="搜索..." spellcheck="false" type="search" class="search-input">
   </div>
   <span class="popup-btn-close">
     <i class="fa fa-times-circle"></i>
@@ -265,27 +261,7 @@
           </div>
           
 
-<script>
-  window.addEventListener('tabs:register', () => {
-    let { activeClass } = CONFIG.comments;
-    if (CONFIG.comments.storage) {
-      activeClass = localStorage.getItem('comments_active') || activeClass;
-    }
-    if (activeClass) {
-      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
-      if (activeTab) {
-        activeTab.click();
-      }
-    }
-  });
-  if (CONFIG.comments.storage) {
-    window.addEventListener('tabs:click', event => {
-      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
-      let commentClass = event.target.classList[1];
-      localStorage.setItem('comments_active', commentClass);
-    });
-  }
-</script>
+
 
         </div>
           
@@ -314,11 +290,10 @@
       <!--/noindex-->
 
       <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <img class="site-author-image" itemprop="image" alt="Alston"
-      src="https://alston-blog-1258129250.cos.ap-nanjing.myqcloud.com/favicon/weizhou_S.jpg">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Alston" src="https://alston-blog-1258129250.cos.ap-nanjing.myqcloud.com/favicon/weizhou_S.jpg">
   <p class="site-author-name" itemprop="name">Alston</p>
-  <div class="site-description" itemprop="description">雾都啊雾都 怪我没忍住<br />一想到你 我就掉下晶莹的泪珠</div>
+  <div class="site-description" itemprop="description">雾都啊雾都 怪我没忍住<br>一想到你 我就掉下晶莹的泪珠</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -344,13 +319,13 @@
 </div>
   <div class="links-of-author motion-element">
       <span class="links-of-author-item">
-        <a href="https://github.com/ydfqdong" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;ydfqdong" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
+        <a href="https://github.com/ydfqdong" title="GitHub → https://github.com/ydfqdong" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i></a>
       </span>
       <span class="links-of-author-item">
         <a href="mailto:ydfqdong@gmail.com" title="E-Mail → mailto:ydfqdong@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
       </span>
       <span class="links-of-author-item">
-        <a href="https://instagram.com/sightofsun" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;sightofsun" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+        <a href="https://instagram.com/sightofsun" title="Instagram → https://instagram.com/sightofsun" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
       </span>
   </div>
   <div class="cc-license motion-element" itemprop="license">
@@ -365,7 +340,7 @@
     </div>
     <ul class="links-of-blogroll-list">
         <li class="links-of-blogroll-item">
-          <a href="https://music.163.com/#/artist?id=12788674" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;artist?id&#x3D;12788674" rel="noopener" target="_blank">KEY.L</a>
+          <a href="https://music.163.com/#/artist?id=12788674" title="https://music.163.com/#/artist?id=12788674" rel="noopener" target="_blank">KEY.L</a>
         </li>
     </ul>
   </div>
@@ -386,7 +361,7 @@
 
 <div class="copyright">
   
-  &copy; 2018 – 
+  © 2018 – 
   <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
@@ -415,31 +390,7 @@
 <span id="showDays"></span>
 </div>
 
-<script>
-  var seconds = 1000;
-  var minutes = seconds * 60;
-  var hours = minutes * 60;
-  var days = hours * 24;
-  var years = days * 365;
-  var birthDay = Date.UTC(2018,2,12,00,00,00); //set since time
-  setInterval(function() {
-    var today = new Date();
-    var todayYear = today.getFullYear();
-    var todayMonth = today.getMonth()+1;
-    var todayDate = today.getDate();
-    var todayHour = today.getHours();
-    var todayMinute = today.getMinutes();
-    var todaySecond = today.getSeconds();
-    var now = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
-    var diff = now - birthDay;
-    var diffYears = Math.floor(diff/years);
-    var diffDays = Math.floor((diff/days)-diffYears*365);
-    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
-    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
-    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-      document.getElementById('showDays').innerHTML="本站已运行： "+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
-  }, 1000);
-</script>
+
 
         
 
@@ -455,33 +406,13 @@
   </div>
 
   
-  <script size="300" alpha="0.6" zIndex="-1" src="/lib/canvas-ribbon/canvas-ribbon.js"></script>
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/pisces.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-<script src="/js/bookmark.js"></script>
-
-
-
-
+  
+  
+  
   
 
 
 
-
-  
-<script src="/js/local-search.js"></script>
 
 
 
@@ -497,36 +428,30 @@
 
   
 
+
+
+
   
 
 
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
-      el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
-      appId      : 'zqWoJJWxFnM0cxCoMkcCqbEj-gzGzoHsz',
-      appKey     : 'GzfQSxfy5qbFQd7yUD9hAd5q',
-      placeholder: "Just go go",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : true,
-      lang       : '' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : false,
-      serverURLs : ''
-    });
-  }, window.Valine);
-});
-</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+
 <div class="moon-menu">
   <div class="moon-menu-items">
     
@@ -556,7 +481,91 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   </div>
 </div>
 
-<script>
+
+
+  <!-- require APlayer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <meting-js server="netease" type="playlist" id="4901761140" theme="#663366" loop="all" autoplay="false" fixed="true" lrc-type="1" <="" meting-js="">
+
+
+
+</meting-js><script src="/bundle.js"></script><script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+;
+
+  var seconds = 1000;
+  var minutes = seconds * 60;
+  var hours = minutes * 60;
+  var days = hours * 24;
+  var years = days * 365;
+  var birthDay = Date.UTC(2018,2,12,00,00,00); //set since time
+  setInterval(function() {
+    var today = new Date();
+    var todayYear = today.getFullYear();
+    var todayMonth = today.getMonth()+1;
+    var todayDate = today.getDate();
+    var todayHour = today.getHours();
+    var todayMinute = today.getMinutes();
+    var todaySecond = today.getSeconds();
+    var now = Date.UTC(todayYear,todayMonth,todayDate,todayHour,todayMinute,todaySecond);
+    var diff = now - birthDay;
+    var diffYears = Math.floor(diff/years);
+    var diffDays = Math.floor((diff/days)-diffYears*365);
+    var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
+    var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
+    var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
+      document.getElementById('showDays').innerHTML="本站已运行： "+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+  }, 1000);
+;
+
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'zqWoJJWxFnM0cxCoMkcCqbEj-gzGzoHsz',
+      appKey     : 'GzfQSxfy5qbFQd7yUD9hAd5q',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : true,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+;
+
 
   const moonMenuListener = function () {
 
@@ -626,23 +635,4 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     window.scroll({ top: (scrollHeight - offsetHeight), behavior: 'smooth' });
   }
 
-</script>
-
-  <!-- require APlayer -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-  <!-- require MetingJS -->
-  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-  <meting-js 
-    server="netease"
-    type="playlist"
-    id="4901761140"
-    theme="#663366"
-    loop="all"
-    autoplay="false"
-    fixed="true"
-    lrc-type="1"
-  </meting-js>
-
-</body>
-</html>
+</script></body></html>
