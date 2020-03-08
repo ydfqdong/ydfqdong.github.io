@@ -450,12 +450,24 @@
         <a href="https://instagram.com/sightofsun" title="Instagram → https:&#x2F;&#x2F;instagram.com&#x2F;sightofsun" rel="noopener" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
       </span>
   </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
 
 
+  <div class="links-of-blogroll motion-element">
+    <div class="links-of-blogroll-title">
+      <i class="fa fa-fw fa-link"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://music.163.com/#/artist?id=12788674" title="https:&#x2F;&#x2F;music.163.com&#x2F;#&#x2F;artist?id&#x3D;12788674" rel="noopener" target="_blank">KEY.L</a>
+        </li>
+    </ul>
+  </div>
 
       </div>
-
-      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=270 src="//music.163.com/outchain/player?type=0&id=4901761140&auto=0&height=430"></iframe>
 
     </div>
   </aside>
@@ -712,5 +724,22 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
   }
 
 </script>
+
+  <!-- require APlayer -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+  <!-- require MetingJS -->
+  <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+  <meting-js 
+    server="netease"
+    type="playlist"
+    id="4901761140"
+    theme="#663366"
+    loop="all"
+    autoplay="false"
+    fixed="true"
+    lrc-type="1"
+  </meting-js>
+
 </body>
 </html>
