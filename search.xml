@@ -4,7 +4,7 @@
     <title>Machine Learning W1</title>
     <url>/2020/03/20/stanford-ml-andrew-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="supervised-learning"><a href="#supervised-learning" class="headerlink" title="supervised learning"></a>supervised learning</h3><p>regression: predict <strong>continuous</strong> valued output<br>classification: predict <strong>discrete</strong> valued output</p>
-<h3 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h3><p>clustering<br>cocktail party algorithm：separate out two audio sources【</p>
+<h3 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h3><p>clustering<br>cocktail party algorithm：separate out two audio sources</p>
 ]]></content>
       <categories>
         <category>Machine Learning</category>

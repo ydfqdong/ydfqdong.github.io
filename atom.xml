@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-26T15:55:49.096Z</updated>
+  <updated>2020-03-27T09:45:25.546Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/03/20/stanford-ml-andrew-1/"/>
     <id>http://yoursite.com/2020/03/20/stanford-ml-andrew-1/</id>
     <published>2020-03-20T07:59:32.478Z</published>
-    <updated>2020-03-26T15:55:49.096Z</updated>
+    <updated>2020-03-27T09:45:25.546Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="supervised-learning"><a href="#supervised-learning" class="headerlink" title="supervised learning"></a>supervised learning</h3><p>regression: predict <strong>continuous</strong> valued output<br>classification: predict <strong>discrete</strong> valued output</p><h3 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h3><p>clustering<br>cocktail party algorithm：separate out two audio sources【</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="supervised-learning"><a href="#supervised-learning" class="headerlink" title="supervised learning"></a>supervised learning</h3><p>regression: predict <strong>continuous</strong> valued output<br>classification: predict <strong>discrete</strong> valued output</p><h3 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h3><p>clustering<br>cocktail party algorithm：separate out two audio sources</p>]]></content>
     
     <summary type="html">
     
