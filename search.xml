@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>basic-software</title>
+    <url>/2020/04/02/basic-software/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>首先感谢大辰提供的软件清单</p>
+<h2 id="编辑软件"><a href="#编辑软件" class="headerlink" title="编辑软件"></a>编辑软件</h2><p>sublime text 3</p>
+<h2 id="知识整理及体系搭建"><a href="#知识整理及体系搭建" class="headerlink" title="知识整理及体系搭建"></a>知识整理及体系搭建</h2><p>xmind zen<br>endnote x9.3.1  <a href="http://www.carrotchou.blog/16669.html" target="_blank" rel="noopener">下载地址</a><br>youdao note</p>
+<h2 id="编程平台"><a href="#编程平台" class="headerlink" title="编程平台"></a>编程平台</h2><p>vs2019<br>VMware 15  <a href="http://www.carrotchou.blog/122.html" target="_blank" rel="noopener">下载地址</a></p>
+<h2 id="工具软件"><a href="#工具软件" class="headerlink" title="工具软件"></a>工具软件</h2><p>everything  <a href="http://www.carrotchou.blog/1100.html" target="_blank" rel="noopener">下载地址</a><br>beyond compare 4<br>git bash + source tree<br>cmake-gui</p>
+<p>##在线协作<br>teambition</p>
+<p>@大辰，夜间翻山小分队正式组建，let’s check it out！</p>
+]]></content>
+      <tags>
+        <tag>software</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Machine Learning W1</title>
     <url>/2020/03/20/stanford-ml-andrew-1/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="supervised-learning"><a href="#supervised-learning" class="headerlink" title="supervised learning"></a>supervised learning</h3><p>regression: predict <strong>continuous</strong> valued output<br>classification: predict <strong>discrete</strong> valued output</p>
-<h3 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h3><p>clustering<br>cocktail party algorithm：separate out two audio sources</p>
-]]></content>
+<h3 id="unsupervised-learning"><a href="#unsupervised-learning" class="headerlink" title="unsupervised learning"></a>unsupervised learning</h3><p>automatically find structure in the data<br>clustering:<br>cocktail party algorithm：</p>
+<p>prototype learning algorithm -&gt; migrate it to c++ or whatever</p>
+<h3 id=""><a href="#" class="headerlink" title=""></a></h3>]]></content>
       <categories>
         <category>Machine Learning</category>
       </categories>
